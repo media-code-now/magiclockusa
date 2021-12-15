@@ -260,7 +260,13 @@ html {
   /* Firefox */
   -webkit-font-smoothing: antialiased;
   /* WebKit  */ }
-
+  /* CTA */
+  .circle {
+    color:green;
+    height:50px;
+    width: 50px;
+    border-radius:50% ;
+    }
 body {
   color: var(--ltn__paragraph-color);
   font-weight: 400;
