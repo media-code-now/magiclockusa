@@ -75,6 +75,19 @@ font-family: 'Rajdhani', sans-serif;
 /* ====================================================
     Gutter Code 
 ==================================================== */
+/* CPA */
+.call {
+  position: fixed;
+  color:white;
+  background-color:rgb(27, 187, 86);
+  left: 0;
+  bottom:0;
+  border: 2px solid rgb(27, 187, 86);
+  border-radius:50%;
+  padding:10px;
+  margin: 10px;
+}
+
 .ltn__no-gutter > [class*='col-'] {
   /* No padding only for child columns */
   padding-right: 0;
